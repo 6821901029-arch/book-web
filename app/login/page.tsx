@@ -30,7 +30,7 @@ export default function Login()  {
     return (
     <div className="auth-page" onSubmit={handleSubmit}>
      <form className="auth-card">
-     <h1> Login </h1>
+     <h1> Login  </h1>
     <input placeholder="Email"type="Email"
     onChange={(e) => setForm({ ...form, email: e.target.value })}
     />
